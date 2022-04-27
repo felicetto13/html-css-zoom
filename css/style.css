@@ -10,11 +10,44 @@
     --bg-color: #000000;
     --green-color: green;
     --red-color: red;
+    --btn-color: gray;
 }
 
 /* selector style */
 body {
     font-family: sans-serif;
+    height: 100vh;
+    background-color: var(--bg-color);
 }
 
 /* classes style */
+.d-flex {
+    display: flex;
+}
+.gap {
+    gap: .5rem;
+}
+.header-container {
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.header-container a {
+    text-decoration: none;
+    color: white;
+}
+.btn {
+    padding: .20rem;
+    background-color: var(--btn-color);
+    font-size: .8rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    padding-left: .30rem;
+    padding-right: .30rem;
+}
