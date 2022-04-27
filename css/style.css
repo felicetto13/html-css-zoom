@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color project */
+
+:root {
+    --bg-color: #000000;
+    --green-color: green;
+    --red-color: red;
+}
+
+/* selector style */
+body {
+    font-family: sans-serif;
+}
+
+/* classes style */
